@@ -270,6 +270,10 @@ img {
     gap: 24px;
 }
 
+.team-container {
+    max-width: 264px;
+}
+
 .team-advantages {
     background-color: #FFFFFF;
     width: calc((100% - 3*24px) / 4);
