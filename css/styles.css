@@ -309,6 +309,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -319,11 +320,19 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     justify-content: center;
+    margin-bottom: 8px;
 }
 
 .team-media-list {
     display: flex;
     gap: 24px;
+}
+
+.team-media-icon {
+    width: calc((100% - 3*24px) / 4);
+    text-align: center;
+    justify-content: center;
+    display: block;
 }
 
 .team-advantages-media {
