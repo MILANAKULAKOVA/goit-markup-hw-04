@@ -347,13 +347,24 @@ img {
 
 .team-media-icon {
     width: calc((100% - 3*24px) / 4);
-    text-align: center;
-    justify-content: center;
-    display: block;
+    padding-bottom: 0px;
 }
 
 .team-advantages-media {
+    background-color: var(--accent-color);
+    flex-direction: column;
+    gap: 32px;
+    display: flex;
+    color: var(--color-white);
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    border-radius: 50%;
     display: block;
+}
+
+.team-advantages-icon {
+    fill: currentColor;
 }
 
 /*--------------CUSTOMERS-----------------*/
@@ -382,6 +393,26 @@ img {
 
 .companies-list {
     width: calc((100% - 5*24px) / 6);
+}
+
+.companies-icon {
+    width: 168px;
+    height: 88px;
+    color: 8E8F99;
+    border-radius: 4px;
+    border: 1px solid var(--lightslate, #8E8F99);
+    display: flex;
+    align-items: center;
+    padding: 16px 32px;
+}
+
+.companies-icon:hover,
+.companies-icon:focus {
+    color: var(--color-blau);
+}
+
+.companies-icon {
+    fill: currentColor;
 }
 
 /*--------------FOOTER-----------------*/
