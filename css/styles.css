@@ -451,10 +451,12 @@ img {
     color: var(--color-icon);
     align-items: center;
     padding: 16px 32px;
+    fill: currentColor;
 }
 
-.companies-icon {
-    fill: currentColor;
+.companies-icon:hover,
+.companies-icon:focus {
+    color: var(--color-blau);
 }
 
 /*--------------FOOTER-----------------*/
