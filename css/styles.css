@@ -407,7 +407,6 @@ img {
         font-size: 36px;
         line-height: 1.11;
         font-weight: 700;
-        line-height: 1.2;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         margin-bottom: 72px;
@@ -707,8 +706,8 @@ img {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.options-list:hover .options-cover-text,
-.options-list:focus .options-cover-text {
+.link-picture:hover .options-cover-text,
+.link-picture:focus .options-cover-text {
     transform: translateY(0%);
 }
 
